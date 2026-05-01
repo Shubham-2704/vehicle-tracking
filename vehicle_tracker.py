@@ -1,8 +1,3 @@
-"""
-Vehicle Tracking & Counting System
-Counts vehicles crossing a virtual line with IN/OUT direction
-"""
-
 import cv2
 import supervision as sv
 from ultralytics import YOLO

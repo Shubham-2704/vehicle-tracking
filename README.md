@@ -80,7 +80,31 @@ Sufficient lighting and contrast for detection (daytime, clear weather)
 
 ---
 
-## Installation
+## Installation & Setup
+
+### Prerequisites
+- Python 3.8 or higher
+- 4GB RAM minimum
+- 500MB free disk space
+
+### Step-by-Step Installation
 
 ```bash
+# 1. Create project folder (if not exists)
+mkdir Vehicle_Tracker
+cd Vehicle_Tracker
+
+# 2. Create virtual environment (optional but recommended)
+python -m venv venv
+
+# 3. Activate virtual environment
+# Windows:
+venv\Scripts\activate
+# Mac/Linux:
+source venv/bin/activate
+
+# 4. Install required packages
 pip install -r requirements.txt
+
+# 5. Run the vehicle tracking system
+python vehicle_tracker.py
